@@ -1,0 +1,63 @@
+body{
+    background-image: url(background.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #80d6c0;
+    font-family: 'Handlee', cursive;
+    font-weight: bolder;
+}
+h1, h3{
+    font-family: 'Volkhov', serif;
+}
+
+#nav{
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    
+    
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    
+}
+#nav li a:hover{
+    background-color: white;
+    color: grey;
+    font-size: larger;
+}
+
+#content{
+    border: solid black 2px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+table{
+    margin: auto;
+}
+
+#content ul, #content ol{
+    width: 40%;
+    margin: auto;
+}
+
+
+
+
+font-family: 'Handlee', cursive;
+font-family: 'Volkhov', serif;
